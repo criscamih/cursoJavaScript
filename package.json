@@ -1,0 +1,27 @@
+{
+  "name": "tutornpm",
+  "version": "0.1.0",
+  "description": "es mi primer package de java",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src -d dist",
+	"test":"mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criscamih/cursoJavaScript.git"
+  },
+  "keywords": [
+    "git",
+    "semver",
+    "asycronos"
+  ],
+  "author": "Cristian Sosa <ing.criscamih7@gmail.com> (https://twitter.com/criscamih)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
